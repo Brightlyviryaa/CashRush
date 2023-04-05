@@ -1,0 +1,35 @@
+body{
+    margin: 0;
+    font-family: arial;
+}
+
+.wrap{
+    width:100vw;
+}
+
+.labelHeader{
+    height: 5vh;
+    background-color: rgba(211, 211, 211, 0.3);
+}
+
+#Aboutus{
+    display: flex;
+    justify-content: space-evenly;  
+}
+
+#Aboutus .bio{
+    justify-content: space-between;
+    text-align: center;
+    border-radius: 10px;   
+    border: solid black 1px ;
+}
+
+#Aboutus img{
+    margin-top: 2vh;
+    width: 15vw;
+    margin-bottom: auto;
+}
+
+.info{
+    margin-top: 5vh;
+}
